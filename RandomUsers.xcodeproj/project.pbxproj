@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		58D55F6A284ABB4800643513 /* RandomUsersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D55F69284ABB4800643513 /* RandomUsersApp.swift */; };
-		58D55F6C284ABB4800643513 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D55F6B284ABB4800643513 /* ContentView.swift */; };
 		58D55F6E284ABB4800643513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D55F6D284ABB4800643513 /* Assets.xcassets */; };
 		58D55F71284ABB4800643513 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D55F70284ABB4800643513 /* Preview Assets.xcassets */; };
 		58D55F7B284ABB4800643513 /* RandomUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D55F7A284ABB4800643513 /* RandomUsersTests.swift */; };
@@ -17,6 +16,7 @@
 		58D55F94284AC1B200643513 /* UserFetchingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D55F93284AC1B200643513 /* UserFetchingClient.swift */; };
 		58D55F96284ACBCD00643513 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D55F95284ACBCD00643513 /* UserData.swift */; };
 		58D55F98284ADA3600643513 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D55F97284ADA3600643513 /* UsersView.swift */; };
+		58D55F9A284AF29100643513 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D55F99284AF29100643513 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		58D55F66284ABB4800643513 /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D55F69284ABB4800643513 /* RandomUsersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersApp.swift; sourceTree = "<group>"; };
-		58D55F6B284ABB4800643513 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58D55F6D284ABB4800643513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58D55F70284ABB4800643513 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		58D55F76284ABB4800643513 /* RandomUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +49,7 @@
 		58D55F93284AC1B200643513 /* UserFetchingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetchingClient.swift; sourceTree = "<group>"; };
 		58D55F95284ACBCD00643513 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		58D55F97284ADA3600643513 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		58D55F99284AF29100643513 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				58D55F69284ABB4800643513 /* RandomUsersApp.swift */,
-				58D55F6B284ABB4800643513 /* ContentView.swift */,
+				58D55F97284ADA3600643513 /* UsersView.swift */,
 				58D55F93284AC1B200643513 /* UserFetchingClient.swift */,
 				58D55F95284ACBCD00643513 /* UserData.swift */,
-				58D55F97284ADA3600643513 /* UsersView.swift */,
+				58D55F99284AF29100643513 /* User.swift */,
 				58D55F6D284ABB4800643513 /* Assets.xcassets */,
 				58D55F6F284ABB4800643513 /* Preview Content */,
 			);
@@ -267,7 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58D55F98284ADA3600643513 /* UsersView.swift in Sources */,
-				58D55F6C284ABB4800643513 /* ContentView.swift in Sources */,
+				58D55F9A284AF29100643513 /* User.swift in Sources */,
 				58D55F6A284ABB4800643513 /* RandomUsersApp.swift in Sources */,
 				58D55F96284ACBCD00643513 /* UserData.swift in Sources */,
 				58D55F94284AC1B200643513 /* UserFetchingClient.swift in Sources */,

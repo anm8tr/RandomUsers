@@ -10,7 +10,7 @@ import Foundation
 //: Create class to store user information.
 @MainActor
 class UserData: ObservableObject  {
-    @Published var users: String = ""
+    @Published var users: [User] = []
     
 //: init() does not support concurrency, add Task to execute getUsers() asynchronous function.
     init() {
